@@ -55,7 +55,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-a {
+.base-do-manual-home a {
     color: var(--corTerciaria);
     font-family: gordita-bold;
 }

@@ -1,0 +1,37 @@
+.base-do-manual-pitch{
+
+    width: auto;
+    height: auto;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background: var(--corPrimaria);
+}
+
+.base-do-manual-pitch h2 {
+    color: #fff;
+}
+
+.base-do-manual-pitch a{
+    color: rgba(0, 0, 0, 0.788);
+    font-family: gordita-bold;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+ul {
+    margin: 10px 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
