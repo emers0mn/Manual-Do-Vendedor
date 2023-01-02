@@ -1,0 +1,96 @@
+@font-face {
+    font-family: gordita-regular;
+    src: url(./font/Gordita\ Regular.otf);
+}
+
+@font-face {
+    font-family: gordita-medium;
+    src: url(./font/Gordita\ Medium.otf);
+}
+
+@font-face {
+    font-family: gordita-bold;
+    src: url(./font/Gordita\ Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    --corPrimaria : #2DC850;
+    --corSecundaria: #4FEC6B;
+    --corTerciaria: #008A31;
+
+    --corDeBase: #ECECEC;
+
+    font-family: gordita-regular;
+    font-size: 16px;
+
+    scroll-behavior: smooth;
+}
+
+main {
+    margin: 10px auto;
+    padding: 10px 30px;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: gordita-medium;
+    margin: 20px 0;
+
+}
+
+h2 {
+    font-family: gordita-bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--corTerciaria);
+    font-family: gordita-bold;
+}
+
+form {
+    display: flex;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+#pesquisa {
+    border-radius: 10px;
+    border: 1px solid var(--corTerciaria);
+    font-size: 14px;
+    padding: 10px;
+    width: 250px;
+}
+
+.base-do-manual-home{
+
+    width: auto;
+    height: auto;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background: var(--corDeBase);
+}
+
+.voltar-ao-topo {
+    position: fixed;
+
+    right: 50px;
+    bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
